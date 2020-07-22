@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hawk.Core.Data", "Hawk.Core.Data\Hawk.Core.Data.csproj", "{EC40EE3F-F303-4B8B-84B9-9E3884442390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawk.Tests", "Hawk.Tests\Hawk.Tests.csproj", "{D09CDF5A-4BD2-4752-883B-BD3EE8B12F9C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawk.Core.Api", "Hawk.Core.Api\Hawk.Core.Api.csproj", "{AF1DE4AE-52B5-40BF-BA9E-A69DAFB64701}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawk.UI.Web", "Hawk.UI.Web\Hawk.UI.Web.csproj", "{DF44E951-5F39-4983-A805-6A3EFF35F3B8}"
@@ -21,10 +19,6 @@ Global
 		{EC40EE3F-F303-4B8B-84B9-9E3884442390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC40EE3F-F303-4B8B-84B9-9E3884442390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC40EE3F-F303-4B8B-84B9-9E3884442390}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D09CDF5A-4BD2-4752-883B-BD3EE8B12F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D09CDF5A-4BD2-4752-883B-BD3EE8B12F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D09CDF5A-4BD2-4752-883B-BD3EE8B12F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D09CDF5A-4BD2-4752-883B-BD3EE8B12F9C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF1DE4AE-52B5-40BF-BA9E-A69DAFB64701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF1DE4AE-52B5-40BF-BA9E-A69DAFB64701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF1DE4AE-52B5-40BF-BA9E-A69DAFB64701}.Release|Any CPU.ActiveCfg = Release|Any CPU
