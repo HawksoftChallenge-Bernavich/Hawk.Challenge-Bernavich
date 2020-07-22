@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hawk.Core.Data", "Hawk.Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawk.Core.Tests", "Hawk.Core.Tests\Hawk.Core.Tests.csproj", "{F5189941-5742-45E8-8C13-17AB43EC87C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawk.Core.Api", "Hawk.Core.Api\Hawk.Core.Api.csproj", "{A98DB281-F8F4-4DAD-A905-7F2A8B82D76B}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Hawk.UI.Vue", "Hawk.UI.Vue\Hawk.UI.Vue.njsproj", "{C3469083-B141-425D-8820-98B0C756D557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F5189941-5742-45E8-8C13-17AB43EC87C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5189941-5742-45E8-8C13-17AB43EC87C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5189941-5742-45E8-8C13-17AB43EC87C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98DB281-F8F4-4DAD-A905-7F2A8B82D76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98DB281-F8F4-4DAD-A905-7F2A8B82D76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98DB281-F8F4-4DAD-A905-7F2A8B82D76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98DB281-F8F4-4DAD-A905-7F2A8B82D76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3469083-B141-425D-8820-98B0C756D557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3469083-B141-425D-8820-98B0C756D557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3469083-B141-425D-8820-98B0C756D557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3469083-B141-425D-8820-98B0C756D557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

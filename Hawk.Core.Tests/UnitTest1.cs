@@ -3,7 +3,6 @@ using Hawk.Core.Data;
 using System.Collections.Generic;
 using System.Linq;
 using Hawk.Core.Data.Model;
-using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace Hawk.Core.Tests
 {
