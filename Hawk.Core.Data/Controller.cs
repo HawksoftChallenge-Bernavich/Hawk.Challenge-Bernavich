@@ -14,17 +14,22 @@ namespace Hawk.Core.Data
 
         public void Create(Contact row)
         {
-            throw new NotImplementedException();
+            Context.Contacts.Add(row);
+            Context.SaveChanges();
         }
 
         public void Delete(Contact row)
         {
-            throw new NotImplementedException();
+            Context.Contacts.Remove(row);
+            Context.SaveChanges();
         }
 
         public void Update(Contact row)
-        {
-            throw new NotImplementedException();
+        { 
+            if (row != null)
+            {
+                Context.SaveChanges();
+            }
         }
     }
 }
